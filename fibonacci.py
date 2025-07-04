@@ -1,6 +1,7 @@
 a = 0
 b = 1
 
-while <= 20:
-    fibonacci = a + b
-    print(fibonacci)
+while a <= 3000:
+    a,b = b, a + b
+    print(a)
+    
